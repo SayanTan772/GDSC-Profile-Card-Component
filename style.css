@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin:0;
+    border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Kumbh Sans", sans-serif;
+}
+.container{
+    width: 330px;
+    height: 410px;
+    background-color: hsl(0,0%,100%);
+    border-radius: 12px;
+    box-shadow: 0px 15px 28px rgba(0,0,0,0.2);
+    text-align:center;
+}
+.container .background{
+    width:100%;
+    height:150px;
+    border-radius: 12px 12px 0px 0px;
+    background-image: url(./images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .profile-img{
+    width:115px;
+    height:115px;
+    border-radius:50%;
+    background-color: hsl(0,0%,100%);
+    margin: -50px auto -30px auto;
+    padding:6px;
+}
+.container .profile-img .image{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit: cover;
+    object-position: center;;
+    border-radius:50%;
+}
+.container .details{
+    width:100%;
+    padding-top:32px;
+}
+.container .details .name{
+    color: hsl(229, 23%, 23%);
+    font-size:18px;
+    font-weight:550;
+}
+.container .details .title{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight:500;
+    color:hsl(227, 10%, 46%);
+}
+.container .details .about{
+    width:100%;
+    color:hsl(227, 10%, 46%);
+    font-size:14px;
+    padding: 15px 20px;
+    line-height:20px;
+}
+.container .footer{
+    width:100%;
+    padding: 10px 50px;
+    display:flex;
+    justify-content: center;
+}
+.container .footer .linkedin{
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.container .footer .linkedin img{
+    width:32px;
+    height:32px;
+}
+.container .footer .github{
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.container .footer .github img{
+    width:32px;
+    height:32px;
+}
+.container .footer .twitter{
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.container .footer .twitter img{
+    width:32px;
+    height:34px;
+}
+
+
+
+
+
